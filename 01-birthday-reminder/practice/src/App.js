@@ -6,8 +6,8 @@ function App() {
   return (
     <main>
       <section className='container'>
-        <h3>0 Birthdays today</h3>
-        <List />
+        <h3>{people.length} Birthdays today</h3>
+        <List people={people} />
         <button onClick={() => console.log('you clicked me')}>clear all</button>
       </section>
     </main>
