@@ -6,7 +6,7 @@ import Tours from './Tours'
 const url = 'https://course-api.com/react-tours-project'
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [tours, setTours] = useState([])
   if (loading) {
     return (
