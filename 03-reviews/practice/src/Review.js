@@ -1,9 +1,19 @@
-import React, { useState } from 'react';
-import people from './data';
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+import React, { useState } from 'react'
+import people from './data'
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa'
 
 const Review = () => {
-  return <h2>review component</h2>;
-};
+  const [index, setIndex] = useState(1)
+  // console.log(people)
+  const { name, job, image, text } = people[index]
 
-export default Review;
+  return (
+    <article className='review'>
+      <div className='img-container'>
+        <img src={image} alt={name} className='person-img' />
+      </div>
+    </article>
+  )
+}
+
+export default Review
