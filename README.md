@@ -62,3 +62,5 @@ Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoff
 21. Movie DB
 22. Hacker News
 23. Quiz
+
+Projects from Lorem Ipsum onwards have been continued on a separate repo https://github.com/k4u5hik/react-projects-2
